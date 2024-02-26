@@ -1,0 +1,33 @@
+/*.button-to-enter {*/
+/*  position: absolute;*/
+/*  top:45%;*/
+/*  margin-left: 41%;*/
+/*  !*animation-delay: 3s;*!*/
+/*}*/
+
+/*.button{*/
+/*  overflow: hidden;*/
+/*}*/
+
+
+.button-to-enter {
+  overflow: hidden;
+  position: absolute;
+  top:45%;
+  margin-left: 45%;
+  animation-name: button-display;
+
+  animation-duration: 5s;
+
+}
+
+@keyframes button-display {
+  from {
+    width: 0;
+    height: 0;
+  }
+  to {
+    width: 200px;
+    height: 50px;
+  }
+}

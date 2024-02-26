@@ -1,0 +1,28 @@
+.drawer-container {
+  width: 100%;
+  height: 100%;
+}
+
+.drawer-sidenav-content {
+  height: 100%;
+
+}
+
+.drawer-sidenav {
+  padding: 20px;
+}
+
+.card-menu-button {
+  width: 350px;
+  margin-bottom: 16px;
+}
+
+.div-logo{
+  width: 100%; /*  va luat spatiul disponibili*/
+  display: flex;
+}
+
+.img-logo{
+  height: 150px;
+  margin: auto;
+}

@@ -1,0 +1,34 @@
+
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.background-image {
+  position: fixed;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* Fond negru inițial */
+  background-image: url('https://retaildesignblog.net/wp-content/uploads/2022/06/17-estudioamatam-architecture-interior-design-gym-Village-Fitness-780x520.jpg');
+  background-size: cover;
+  animation: slideAndFade 4s ease-in-out forwards;
+}
+
+@keyframes slideAndFade {
+  0% {
+    top: -100%;
+    background-color: black; /* Fundal negru la început */
+  }
+  50% {
+    top: 50%; /* Imaginea coboară pe jumătatea ecranului */
+    background-color: black; /* Fundalul rămâne negru pe jumătate */
+  }
+  100% {
+    top: 0; /* Imaginea ajunge la poziția finală */
+    background-color: transparent; /* Fundalul devine transparent */
+  }
+}
+
